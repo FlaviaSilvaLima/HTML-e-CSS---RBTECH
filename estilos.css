@@ -1,0 +1,40 @@
+
+         /*coloca sempre a tag que deseja utilizar, depois as propriedades e valores */
+            /*a {
+                /*cor da fonte */
+              /*  color: red;
+                /*text-decoration:none serve para tirar o sublinhado do link */
+             /*   text-decoration:none;
+                /*tamanho da fonte */
+            /*    font-size: 18px; 
+            } */
+
+            h1 {
+                /*tipo de fonte*/
+                font-family: Arial, Helvetica, sans-serif;
+                color: seagreen;
+            }
+
+            /*#segundo (jogo da velha, tralha, cerquilha) # serve para indicar o ID*/
+            #segundo {
+
+                color: orange;
+                text-decoration:none;
+                font-size: 18px;
+            }
+
+            /* . (o ponto serve para definir uma class) */
+            /* Se houver mais classes com o nome link, eu indico onde ele deve ser aplicado, 
+            neste caso, na class a */
+
+            a.link {
+                color: red; 
+                /*text-decoration:none serve para tirar o sublinhado do link */
+                text-decoration:none;
+                /*tamanho da fonte */
+                font-size: 18px;
+            }
+
+            a.link{
+
+            }

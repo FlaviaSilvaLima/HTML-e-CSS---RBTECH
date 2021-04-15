@@ -1,0 +1,24 @@
+/*coloco entre colchetes o tipo de input que eu quero colocar no CSS indicado*/
+label, input[type=submit], input[type=text], textarea{
+    display: block;
+}
+
+textarea{
+    width: 300px;
+    height: 80px;
+}
+
+input[type=submit]{
+    background: #333333;
+    color:white;
+    /*tipo de desenho/animação para clicar nos links*/
+    cursor: pointer;
+    padding: 10px 20px;
+    /*para tirar as configurações do navegador*/
+    border: 0;
+}
+
+/*Quando passar o mouse em cima do botão*/
+input[type=submit]:hover{
+    background: #ff6600;
+}

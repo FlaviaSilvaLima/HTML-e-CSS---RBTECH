@@ -1,0 +1,67 @@
+body {
+    font-family: helvetica, sans-serif;
+}
+
+/*CSS reutilizável - definições de forma reduzida para otimização do código*/
+/*Para não precisar ficar repetindo o código diversas vezes*/
+
+/*a normal e a visitados*/
+a:link, a:visited{
+    color: #ff6600;
+     /*para não ficar com nenhuma decoração no texto*/
+    text-decoration: none;
+}
+
+a:hover{
+    /*para o menu ficar sublinhado quando passar o mouse em cima*/
+    text-decoration: underline;
+}
+
+#wrap {
+    width: 960px;
+    margin: auto;
+    background: #e3e3e3;
+    /*topo, direita, baixo, esquerda - começa no topo e vai no sentido horário*/
+    /*se indicar dois valores, como mostrado abaixo, o cima e baixo serão iguais e o direita e esquerna iguais*/
+    padding: 10px 20px;
+    /*usa o overflow:hidden para corrigir o final da div, que fica faltando, o que ultrapassar os limites da div fica oculto*/
+    overflow: hidden;
+}
+
+header nav ul {
+    /*para retirar as bolinhas/marcadores padrões da lista -serve para tirar o estilo da lista*/
+    list-style: none;
+   padding-left: 0px;
+}
+
+/*Foi criado este novo estilo para que o li esteja alinhado com o h1*/
+header nav ul li{
+    /*serve para o menu ser mostrado em linha - um ao lado do outro*/
+    display: inline;
+    /*dar espaços de um menu para o outro, para que não fiquem grudados*/
+    margin-right: 10px;
+}
+
+header nav ul li a{
+    font-size: 18px;
+}
+
+#content{
+    /*define para que lado quero que minha div flutue (fique)*/
+    float: left;
+    width: 660px;
+}
+
+#sidebar {
+    float: right;
+    width: 300px;
+}
+
+#sidebar ul{
+    list-style: none;
+}
+
+footer{
+    /*limpa as flutuações anteriores ao elemento, fazendo o rodapé ficar onde deveria*/
+    clear: both;
+}

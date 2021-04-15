@@ -1,0 +1,26 @@
+h1{
+    /*define a cor do texto*/
+    color: orange;
+    /*serve para definir o espaçamento entre os caracteres*/
+    letter-spacing: -1px;
+    /*o text-transform visa transformar a letra em maiúscula ou minúscula*/
+    /*uppercase - transforma tudo em maiúsculo*/
+    /*lowercase - transforma tudo em minúsculo*/
+    /*capitalize - transforma a primeira letra de cada palavra em maiúscula*/
+    text-transform: capitalize ;
+    /*Definir a largura para que o texto não fique muito extenso dentro do site*/
+    width: 650px;
+    /*efeito de sombra que vai utilizar no texto - acrescenta a quantidade na horizontal e vertical e acrescenta a cor*/
+    text-shadow: 1px 1px black;
+}
+
+p{
+    /*Criando parágrafos no texto - text-indent: 50px*/
+    width: 650px;
+    /* text-align: justify; visa dar o alinhamento do texto (esquerda, direita e justificado)*/  
+    font-size: 18px;
+    /*Tipo de fonte que vai ser utilizada - se não tiver a primeira, roda a segunda e assim por diante*/
+    font-family: Verdana, Arial, sans-serif;
+}
+
+/*google.com/fonts - para utilizar uma determinada fonte no site*/
